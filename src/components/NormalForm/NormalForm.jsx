@@ -15,6 +15,7 @@ const NormalForm = () => {
 
   return (
     <div>
+      <h1>this is normal form</h1>
       <form onSubmit={handleFormData} style={formStyle}>
         <input type="text" name="name" />
         <input type="email" name="email" />
